@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Pixabay</string>
+    <string name="txtNull">0</string>
 </resources>

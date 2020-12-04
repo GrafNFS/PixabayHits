@@ -45,9 +45,9 @@ public class Network {
         return UILApplication.restInstance;
     }
 
-    public static List<ItemHits> getLisHits() {
+    public static List<ItemHits> getLisHits(int pageHits) {
         List<ItemHits> result = new ArrayList<>();
-        HttpGet request = new HttpGet(URL + "&category=people");
+        HttpGet request = new HttpGet(URL + "&category=people&page=" + pageHits);
 
         try {
             HttpResponse response = http.execute(request);
