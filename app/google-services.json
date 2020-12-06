@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "51891435809",
+    "project_id": "pixabay-1d7db",
+    "storage_bucket": "pixabay-1d7db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51891435809:android:bafe91311a06e67938a660",
+        "android_client_info": {
+          "package_name": "com.example.pixabay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51891435809-9n0j1gm7r7m5nreealnpbvfuj65kefdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pixabay",
+            "certificate_hash": "029d4416e449b7713a3c600baeb86140600de6d9"
+          }
+        },
+        {
+          "client_id": "51891435809-67n6hrt3c3nkeo8i46qis2tthpiha2u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOcvVxfRPO1wp-PEgzFQFK86XCzqmKjMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51891435809-67n6hrt3c3nkeo8i46qis2tthpiha2u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

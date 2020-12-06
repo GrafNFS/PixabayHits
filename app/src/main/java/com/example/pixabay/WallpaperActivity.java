@@ -15,14 +15,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Target;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 public class WallpaperActivity extends AppCompatActivity {
-    private Target mTarget;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
