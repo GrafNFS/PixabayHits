@@ -45,14 +45,13 @@ public class Network {
         return UILApplication.restInstance;
     }
 
-    public static List<ItemHits> getLisHits(int pageHits) {
+    public static List<ItemHits> getLisHits(int pageHits, String categoreHits) {
         List<ItemHits> result = new ArrayList<>();
-        HttpGet request = new HttpGet(URL + "&category=people&page=" + pageHits);
+        HttpGet request = new HttpGet(URL + "&category=" + categoreHits + "&page=" + pageHits);
 
         try {
             HttpResponse response = http.execute(request);
             String jsonStr = streamToString(response.getEntity().getContent());
-            Log.e("Profile", jsonStr);
 
             if (!jsonStr.equals("")) {
                 JSONObject jsonObject = new JSONObject(jsonStr);

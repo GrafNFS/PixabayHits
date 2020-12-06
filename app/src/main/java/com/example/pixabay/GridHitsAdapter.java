@@ -1,6 +1,7 @@
 package com.example.pixabay;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,6 +44,15 @@ public class GridHitsAdapter extends ArrayAdapter<ItemHits> {
                 .into(holder.imgHits);
         holder.txtDownload.setText(Integer.toString(item.downloads));
         holder.txtLike.setText(Integer.toString(item.likes));
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                UILApplication.selectedItemHits = item;
+                Intent i = new Intent(context, WallpaperActivity.class);
+                context.startActivity(i);
+            }
+        });
 
         return view;
     }

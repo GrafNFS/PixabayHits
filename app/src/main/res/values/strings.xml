@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Pixabay</string>
     <string name="txtNull">0</string>
+    <string name="drawerTxtPeople">People</string>
+    <string name="drawerTxtNature">Nature</string>
+    <string name="drawerTxtTransportation">Transportation</string>
+    <string name="drawerTxtAnimals">Animals</string>
+    <string name="drawerTxtComputer">Computer</string>
+    <string name="btnTxtWallpaperInstall">Set as wallpaper</string>
 </resources>
